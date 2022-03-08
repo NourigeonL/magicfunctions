@@ -1,8 +1,4 @@
-from array import array
-import string
-
-
-def magicFunction1(str: string) -> string:
+def magicFunction1(str: str) -> str:
     """
     Reverse the given string. For example, if the string is “vahbunA”, then the result will be “Anubhav”.
     :param str: The string to reverse.
@@ -12,7 +8,7 @@ def magicFunction1(str: string) -> string:
 
     return str[::-1]
 
-def magicFunction2(arr: array, x: int) -> int:
+def magicFunction2(arr: list, x: int) -> int:
     """
     Research the position of the given number in the given array using so Fibonacci Search Algorithm
 
