@@ -42,3 +42,25 @@ def magicFunction2(arr: list, x: int) -> int:
     if(FibonacciGenerator(m - 1) and arr[offset + 1] == x):
         return offset + 1
     return -1
+
+def magicFunction3(start: int, end: int) -> list[str]:
+    """
+    Create an array following the FizzBuzz algorithm between the given values
+
+    :param start: the starting number
+    :param end: the ending number
+
+    :return: The array
+    """
+
+    result = []
+    for i in range(start,end):
+        if i % 3 == 0 and i % 5 == 0:
+            result.append("FizzBuzz")
+        elif i % 3 == 0:
+            result.append("Fizz")
+        elif i % 5 == 0:
+            result.append("Buzz")
+        else:
+            result.append(str(i))
+    return result
