@@ -1,1 +1,8 @@
 env/
+.eggs/
+.pytest_cache/
+build/
+dist/
+magicLib.egg-info/
+tests/__pycache__/
+magicLib/__pycache__/
