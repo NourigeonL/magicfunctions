@@ -11,3 +11,10 @@ reversedTree = magicfunction1263905(theTree)
 
 - Everything of course
 - For now, I'm just writing `magicFunction1`, `magicFunction2` etc. but I think having a code to classify the algorithm would be nice, like "the function starting by '420' are sorting algorithm"
+- Create the ultimate function `magicfunction` that does whatever you want. It should be used like this :
+    ```python
+    reversedTree = magicfunction("reverseBinaryTree", tree)
+    index = magicfunction("fibonacciSearch", arr, 60)
+    ...
+    ```
+    The function will just call the right function with the given parameters
