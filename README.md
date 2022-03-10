@@ -21,5 +21,20 @@ reversedTree = magicfunction1263905(theTree)
 
 # Functions implemented
 - Reverse String
+    ```python
+    magicFunction1(str) 
+    # or
+    MagicClass.magicFunction("reverseString",str)
+    ```
 - Fibonacci Search
+    ```python
+    magicFunction2(arr, x) 
+    # or
+    MagicClass.magicFunction("fibonacciSearch",arr, x)
+    ```
 - FizzBuzz
+    ```python
+    magicFunction3() 
+    # or
+    MagicClass.magicFunction("fizzBuzz")
+    ```
