@@ -1,4 +1,4 @@
-from magicLib import magicfunctions
+from magic_lib import magicfunctions
 
 def test_magicFunction1():
     assert magicfunctions.magicFunction1("vahbunA") == "Anubhav"
