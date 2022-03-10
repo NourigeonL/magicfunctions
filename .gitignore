@@ -3,6 +3,7 @@ env/
 .pytest_cache/
 build/
 dist/
-magicLib.egg-info/
+magic_lib.egg-info/
 tests/__pycache__/
-magicLib/__pycache__/
+magic_lib/__pycache__/
+the_magic_lib.egg-info/
